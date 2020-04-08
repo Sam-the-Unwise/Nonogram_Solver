@@ -10,18 +10,16 @@
 #       rows
 #
 ###############################################################################
-# plan
-# make an array that will hold arrasy: [[], [], [], ....] 
-#       each inner array is a row
-#           - these must all be the same length
-# loop through the inputs from the command line. Inputs
-#       num_of_rows
-#       num_of_cols
-#       columns
-#       rows
+'''
+AUTHOR: Samantha Muellner
+
+DESCRIPTION: File that will take in input and set up nonogram as needed
+
+VERSION: 1.1.0v
+'''
 
 from solve_nonogram import calculate_nonogram
-from solve_nonogram import print_matrix
+from print_nonogram import print_matrix
 
 def correctly_store_column_input(col_amount):
     # create list that will hold final output
